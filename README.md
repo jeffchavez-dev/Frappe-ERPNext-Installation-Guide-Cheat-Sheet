@@ -232,6 +232,9 @@ Additional:
             Then click the ADD button
       Log on ERPNext using Administrator and the password used during the installation.
 
+### Another Branch/Site
+     Repeat Step 15: bench init frappe-bench --frappe-branch version-15 --python python3.11 
+        * replace frappe-bench with the desire bench name 
 
 ## Errors
        # Error 1: "Access denied for user 'root'@'localhost'")
