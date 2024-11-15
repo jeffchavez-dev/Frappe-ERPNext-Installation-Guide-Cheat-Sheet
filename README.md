@@ -221,6 +221,18 @@ Open url http://frappe.site.local:8000 to login
     
     bench start
 
+    Install 
+      Public: 
+            bench get-app branch
+            bench get-app  https://github.com/frappe/ecommerce_integrations
+            bench get-app  https://github.com/frappe/education
+            bench get-app https://github.com/frappe/hrms
+      Private: (requires token)
+            bench get-app https://<your token>@github.com/NextServ/phbir --branch jeff-branch
+            bench get-app https://<your token>@github.com/NextServ/weekly_planner --branch jeff-branch
+            bench get-app https://<your token>@github.com/NextServ/sms --branch jeff-branch
+            bench get-app https://<your token>@github.com/NextServ/schoolext --branch jeff-branch
+
     ## See error 4 below for issues.
 
 
